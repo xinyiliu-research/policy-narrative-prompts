@@ -1,0 +1,607 @@
+{
+  "version": "1025-full63-table-v1",
+  "date": "2026-10-25",
+  "generator_model": "openai/gpt-6-astra",
+  "screening_model": "openai/gpt-6-astra",
+  "respondent_models": [
+    "openai/gpt-6-astra",
+    "deepseek/deepseek-v4-pro-0813"
+  ],
+  "cases": [
+    {
+      "id": "C01-S01",
+      "pair_id": "C01",
+      "replicate": 1,
+      "orientation_a": "Harmony",
+      "orientation_b": "Embeddedness"
+    },
+    {
+      "id": "C01-S02",
+      "pair_id": "C01",
+      "replicate": 2,
+      "orientation_a": "Embeddedness",
+      "orientation_b": "Harmony"
+    },
+    {
+      "id": "C01-S03",
+      "pair_id": "C01",
+      "replicate": 3,
+      "orientation_a": "Harmony",
+      "orientation_b": "Embeddedness"
+    },
+    {
+      "id": "C02-S01",
+      "pair_id": "C02",
+      "replicate": 1,
+      "orientation_a": "Hierarchy",
+      "orientation_b": "Harmony"
+    },
+    {
+      "id": "C02-S02",
+      "pair_id": "C02",
+      "replicate": 2,
+      "orientation_a": "Harmony",
+      "orientation_b": "Hierarchy"
+    },
+    {
+      "id": "C02-S03",
+      "pair_id": "C02",
+      "replicate": 3,
+      "orientation_a": "Hierarchy",
+      "orientation_b": "Harmony"
+    },
+    {
+      "id": "C03-S01",
+      "pair_id": "C03",
+      "replicate": 1,
+      "orientation_a": "Harmony",
+      "orientation_b": "Mastery"
+    },
+    {
+      "id": "C03-S02",
+      "pair_id": "C03",
+      "replicate": 2,
+      "orientation_a": "Mastery",
+      "orientation_b": "Harmony"
+    },
+    {
+      "id": "C03-S03",
+      "pair_id": "C03",
+      "replicate": 3,
+      "orientation_a": "Harmony",
+      "orientation_b": "Mastery"
+    },
+    {
+      "id": "C04-S01",
+      "pair_id": "C04",
+      "replicate": 1,
+      "orientation_a": "Affective Autonomy",
+      "orientation_b": "Harmony"
+    },
+    {
+      "id": "C04-S02",
+      "pair_id": "C04",
+      "replicate": 2,
+      "orientation_a": "Harmony",
+      "orientation_b": "Affective Autonomy"
+    },
+    {
+      "id": "C04-S03",
+      "pair_id": "C04",
+      "replicate": 3,
+      "orientation_a": "Affective Autonomy",
+      "orientation_b": "Harmony"
+    },
+    {
+      "id": "C05-S01",
+      "pair_id": "C05",
+      "replicate": 1,
+      "orientation_a": "Harmony",
+      "orientation_b": "Intellectual Autonomy"
+    },
+    {
+      "id": "C05-S02",
+      "pair_id": "C05",
+      "replicate": 2,
+      "orientation_a": "Intellectual Autonomy",
+      "orientation_b": "Harmony"
+    },
+    {
+      "id": "C05-S03",
+      "pair_id": "C05",
+      "replicate": 3,
+      "orientation_a": "Harmony",
+      "orientation_b": "Intellectual Autonomy"
+    },
+    {
+      "id": "C06-S01",
+      "pair_id": "C06",
+      "replicate": 1,
+      "orientation_a": "Egalitarianism",
+      "orientation_b": "Harmony"
+    },
+    {
+      "id": "C06-S02",
+      "pair_id": "C06",
+      "replicate": 2,
+      "orientation_a": "Harmony",
+      "orientation_b": "Egalitarianism"
+    },
+    {
+      "id": "C06-S03",
+      "pair_id": "C06",
+      "replicate": 3,
+      "orientation_a": "Egalitarianism",
+      "orientation_b": "Harmony"
+    },
+    {
+      "id": "C07-S01",
+      "pair_id": "C07",
+      "replicate": 1,
+      "orientation_a": "Embeddedness",
+      "orientation_b": "Hierarchy"
+    },
+    {
+      "id": "C07-S02",
+      "pair_id": "C07",
+      "replicate": 2,
+      "orientation_a": "Hierarchy",
+      "orientation_b": "Embeddedness"
+    },
+    {
+      "id": "C07-S03",
+      "pair_id": "C07",
+      "replicate": 3,
+      "orientation_a": "Embeddedness",
+      "orientation_b": "Hierarchy"
+    },
+    {
+      "id": "C08-S01",
+      "pair_id": "C08",
+      "replicate": 1,
+      "orientation_a": "Mastery",
+      "orientation_b": "Embeddedness"
+    },
+    {
+      "id": "C08-S02",
+      "pair_id": "C08",
+      "replicate": 2,
+      "orientation_a": "Embeddedness",
+      "orientation_b": "Mastery"
+    },
+    {
+      "id": "C08-S03",
+      "pair_id": "C08",
+      "replicate": 3,
+      "orientation_a": "Mastery",
+      "orientation_b": "Embeddedness"
+    },
+    {
+      "id": "C09-S01",
+      "pair_id": "C09",
+      "replicate": 1,
+      "orientation_a": "Embeddedness",
+      "orientation_b": "Affective Autonomy"
+    },
+    {
+      "id": "C09-S02",
+      "pair_id": "C09",
+      "replicate": 2,
+      "orientation_a": "Affective Autonomy",
+      "orientation_b": "Embeddedness"
+    },
+    {
+      "id": "C09-S03",
+      "pair_id": "C09",
+      "replicate": 3,
+      "orientation_a": "Embeddedness",
+      "orientation_b": "Affective Autonomy"
+    },
+    {
+      "id": "C10-S01",
+      "pair_id": "C10",
+      "replicate": 1,
+      "orientation_a": "Intellectual Autonomy",
+      "orientation_b": "Embeddedness"
+    },
+    {
+      "id": "C10-S02",
+      "pair_id": "C10",
+      "replicate": 2,
+      "orientation_a": "Embeddedness",
+      "orientation_b": "Intellectual Autonomy"
+    },
+    {
+      "id": "C10-S03",
+      "pair_id": "C10",
+      "replicate": 3,
+      "orientation_a": "Intellectual Autonomy",
+      "orientation_b": "Embeddedness"
+    },
+    {
+      "id": "C11-S01",
+      "pair_id": "C11",
+      "replicate": 1,
+      "orientation_a": "Embeddedness",
+      "orientation_b": "Egalitarianism"
+    },
+    {
+      "id": "C11-S02",
+      "pair_id": "C11",
+      "replicate": 2,
+      "orientation_a": "Egalitarianism",
+      "orientation_b": "Embeddedness"
+    },
+    {
+      "id": "C11-S03",
+      "pair_id": "C11",
+      "replicate": 3,
+      "orientation_a": "Embeddedness",
+      "orientation_b": "Egalitarianism"
+    },
+    {
+      "id": "C12-S01",
+      "pair_id": "C12",
+      "replicate": 1,
+      "orientation_a": "Mastery",
+      "orientation_b": "Hierarchy"
+    },
+    {
+      "id": "C12-S02",
+      "pair_id": "C12",
+      "replicate": 2,
+      "orientation_a": "Hierarchy",
+      "orientation_b": "Mastery"
+    },
+    {
+      "id": "C12-S03",
+      "pair_id": "C12",
+      "replicate": 3,
+      "orientation_a": "Mastery",
+      "orientation_b": "Hierarchy"
+    },
+    {
+      "id": "C13-S01",
+      "pair_id": "C13",
+      "replicate": 1,
+      "orientation_a": "Hierarchy",
+      "orientation_b": "Affective Autonomy"
+    },
+    {
+      "id": "C13-S02",
+      "pair_id": "C13",
+      "replicate": 2,
+      "orientation_a": "Affective Autonomy",
+      "orientation_b": "Hierarchy"
+    },
+    {
+      "id": "C13-S03",
+      "pair_id": "C13",
+      "replicate": 3,
+      "orientation_a": "Hierarchy",
+      "orientation_b": "Affective Autonomy"
+    },
+    {
+      "id": "C14-S01",
+      "pair_id": "C14",
+      "replicate": 1,
+      "orientation_a": "Intellectual Autonomy",
+      "orientation_b": "Hierarchy"
+    },
+    {
+      "id": "C14-S02",
+      "pair_id": "C14",
+      "replicate": 2,
+      "orientation_a": "Hierarchy",
+      "orientation_b": "Intellectual Autonomy"
+    },
+    {
+      "id": "C14-S03",
+      "pair_id": "C14",
+      "replicate": 3,
+      "orientation_a": "Intellectual Autonomy",
+      "orientation_b": "Hierarchy"
+    },
+    {
+      "id": "C15-S01",
+      "pair_id": "C15",
+      "replicate": 1,
+      "orientation_a": "Hierarchy",
+      "orientation_b": "Egalitarianism"
+    },
+    {
+      "id": "C15-S02",
+      "pair_id": "C15",
+      "replicate": 2,
+      "orientation_a": "Egalitarianism",
+      "orientation_b": "Hierarchy"
+    },
+    {
+      "id": "C15-S03",
+      "pair_id": "C15",
+      "replicate": 3,
+      "orientation_a": "Hierarchy",
+      "orientation_b": "Egalitarianism"
+    },
+    {
+      "id": "C16-S01",
+      "pair_id": "C16",
+      "replicate": 1,
+      "orientation_a": "Affective Autonomy",
+      "orientation_b": "Mastery"
+    },
+    {
+      "id": "C16-S02",
+      "pair_id": "C16",
+      "replicate": 2,
+      "orientation_a": "Mastery",
+      "orientation_b": "Affective Autonomy"
+    },
+    {
+      "id": "C16-S03",
+      "pair_id": "C16",
+      "replicate": 3,
+      "orientation_a": "Affective Autonomy",
+      "orientation_b": "Mastery"
+    },
+    {
+      "id": "C17-S01",
+      "pair_id": "C17",
+      "replicate": 1,
+      "orientation_a": "Mastery",
+      "orientation_b": "Intellectual Autonomy"
+    },
+    {
+      "id": "C17-S02",
+      "pair_id": "C17",
+      "replicate": 2,
+      "orientation_a": "Intellectual Autonomy",
+      "orientation_b": "Mastery"
+    },
+    {
+      "id": "C17-S03",
+      "pair_id": "C17",
+      "replicate": 3,
+      "orientation_a": "Mastery",
+      "orientation_b": "Intellectual Autonomy"
+    },
+    {
+      "id": "C18-S01",
+      "pair_id": "C18",
+      "replicate": 1,
+      "orientation_a": "Egalitarianism",
+      "orientation_b": "Mastery"
+    },
+    {
+      "id": "C18-S02",
+      "pair_id": "C18",
+      "replicate": 2,
+      "orientation_a": "Mastery",
+      "orientation_b": "Egalitarianism"
+    },
+    {
+      "id": "C18-S03",
+      "pair_id": "C18",
+      "replicate": 3,
+      "orientation_a": "Egalitarianism",
+      "orientation_b": "Mastery"
+    },
+    {
+      "id": "C19-S01",
+      "pair_id": "C19",
+      "replicate": 1,
+      "orientation_a": "Affective Autonomy",
+      "orientation_b": "Intellectual Autonomy"
+    },
+    {
+      "id": "C19-S02",
+      "pair_id": "C19",
+      "replicate": 2,
+      "orientation_a": "Intellectual Autonomy",
+      "orientation_b": "Affective Autonomy"
+    },
+    {
+      "id": "C19-S03",
+      "pair_id": "C19",
+      "replicate": 3,
+      "orientation_a": "Affective Autonomy",
+      "orientation_b": "Intellectual Autonomy"
+    },
+    {
+      "id": "C20-S01",
+      "pair_id": "C20",
+      "replicate": 1,
+      "orientation_a": "Egalitarianism",
+      "orientation_b": "Affective Autonomy"
+    },
+    {
+      "id": "C20-S02",
+      "pair_id": "C20",
+      "replicate": 2,
+      "orientation_a": "Affective Autonomy",
+      "orientation_b": "Egalitarianism"
+    },
+    {
+      "id": "C20-S03",
+      "pair_id": "C20",
+      "replicate": 3,
+      "orientation_a": "Egalitarianism",
+      "orientation_b": "Affective Autonomy"
+    },
+    {
+      "id": "C21-S01",
+      "pair_id": "C21",
+      "replicate": 1,
+      "orientation_a": "Intellectual Autonomy",
+      "orientation_b": "Egalitarianism"
+    },
+    {
+      "id": "C21-S02",
+      "pair_id": "C21",
+      "replicate": 2,
+      "orientation_a": "Egalitarianism",
+      "orientation_b": "Intellectual Autonomy"
+    },
+    {
+      "id": "C21-S03",
+      "pair_id": "C21",
+      "replicate": 3,
+      "orientation_a": "Intellectual Autonomy",
+      "orientation_b": "Egalitarianism"
+    }
+  ],
+  "prompt_hashes": {
+    "narrative_administration": "54c3f043e9d56a81413d91e9a81aa20ce306ebf7aeac1ad3967cb80301c9a0d6",
+    "policy_administration": "8678feab1b30fb8c4acaad097e17975e7e6485ad073e854c7f388fc59bfca75e",
+    "cross_format_fidelity": "8d0f344fe30735169858de92c8ea30f0d89cd00f466a995f67882dac231bc0f5",
+    "policy_evaluation": "b6c1102014ceed5c499cec5e0b9e1fafb4e9e6f3cfb24d50444badc14e6f7bba",
+    "value_definitions": "2e76da4a181632b1eaae6e9c9849af3f71fb08af787e78b3b5fdf05786080e60",
+    "narrative_generation": "d96b8752ce0d1ff44e4272feee8791f15f8997d3643392c9a8b3c8101d37bb34",
+    "policy_generation": "ad3a83009f86d51280134991342061ca3a91eae383ff730f5af9dfef9d8a35ac",
+    "narrative_evaluation": "ad597c9e022cee1578052e09ee3aa31f7ca72fccb41f94a2890fe0c1bf217c7e"
+  },
+  "source_suite": "/Users/liuxinyi/Downloads/Projects/Global LLM/erik_folder/prompt_suite_1019",
+  "scope": "63 newly generated climate cases across all 21 value pairs, three different mechanisms or decisions per pair; policy and matched narrative formats; GPT-only generation; GPT and DeepSeek choice responses in both A/B orders, 504 complete cells.",
+  "selection": "All 21 unordered pairs of the seven cultural values; three fresh cases per pair. Earlier pilot cases are not reused.",
+  "administration": "One response per model x case x format x order; no repeat sampling. No revision based on preferences.",
+  "limitations": [
+    "Format, total text length and recommendation versus preference wording change together; their individual effects cannot be isolated.",
+    "GPT generates and screens its own drafts in fresh contexts; this is not independent human validation.",
+    "Both models receive identical GPT-authored materials; generation-model effects are not tested.",
+    "English only; no national or cultural population inference from two models.",
+    "Three cases per pair and one response per order do not establish stable value traits or equivalence.",
+    "Failed screening items are retained for review and excluded from the screened framing comparison; their responses are reported separately.",
+    "Generator and reviewer are the same model in fresh contexts; automated checks are not human validation."
+  ],
+  "quality_keys": [
+    "climate_centrality",
+    "shared_goal",
+    "consequences",
+    "plausibility",
+    "dominance",
+    "third_option",
+    "status_quo",
+    "global_comprehension",
+    "readability",
+    "balance",
+    "format"
+  ],
+  "fidelity_keys": [
+    "actors_groups",
+    "actions_mechanisms",
+    "goals_effectiveness",
+    "gains_sacrifices",
+    "quantities_costs_timing",
+    "uncertainty_constraints"
+  ],
+  "budget_cap_usd": 15,
+  "generation_max_tokens": 4500,
+  "review_max_tokens": 4000,
+  "administration_max_tokens": 4000,
+  "reasoning_effort": "low",
+  "temperature": "omitted for both providers; defaults may differ",
+  "provider_fallbacks": false,
+  "pairs": {
+    "C01": [
+      "Harmony",
+      "Embeddedness"
+    ],
+    "C02": [
+      "Harmony",
+      "Hierarchy"
+    ],
+    "C03": [
+      "Harmony",
+      "Mastery"
+    ],
+    "C04": [
+      "Harmony",
+      "Affective Autonomy"
+    ],
+    "C05": [
+      "Harmony",
+      "Intellectual Autonomy"
+    ],
+    "C06": [
+      "Harmony",
+      "Egalitarianism"
+    ],
+    "C07": [
+      "Embeddedness",
+      "Hierarchy"
+    ],
+    "C08": [
+      "Embeddedness",
+      "Mastery"
+    ],
+    "C09": [
+      "Embeddedness",
+      "Affective Autonomy"
+    ],
+    "C10": [
+      "Embeddedness",
+      "Intellectual Autonomy"
+    ],
+    "C11": [
+      "Embeddedness",
+      "Egalitarianism"
+    ],
+    "C12": [
+      "Hierarchy",
+      "Mastery"
+    ],
+    "C13": [
+      "Hierarchy",
+      "Affective Autonomy"
+    ],
+    "C14": [
+      "Hierarchy",
+      "Intellectual Autonomy"
+    ],
+    "C15": [
+      "Hierarchy",
+      "Egalitarianism"
+    ],
+    "C16": [
+      "Mastery",
+      "Affective Autonomy"
+    ],
+    "C17": [
+      "Mastery",
+      "Intellectual Autonomy"
+    ],
+    "C18": [
+      "Mastery",
+      "Egalitarianism"
+    ],
+    "C19": [
+      "Affective Autonomy",
+      "Intellectual Autonomy"
+    ],
+    "C20": [
+      "Affective Autonomy",
+      "Egalitarianism"
+    ],
+    "C21": [
+      "Intellectual Autonomy",
+      "Egalitarianism"
+    ]
+  },
+  "max_workers_generation": 7,
+  "max_workers_administration": 16,
+  "max_policy_revisions": 1,
+  "max_narrative_revisions": 1,
+  "source_pilot": "/Users/liuxinyi/Downloads/Projects/Global LLM/scenario_benchmark/erik_pipeline/framing_pilot_20261025",
+  "response_target": 504,
+  "revision_source": "/Users/liuxinyi/Downloads/Projects/Global LLM/scenario_benchmark/erik_pipeline/framing_full63_revised_20261025",
+  "revision_source_bank_sha256": "a423f2927a5d17c5efd06f62540b5c435a1bfb365cd78a0b38cb035ffae5ef5e",
+  "max_revision_rounds": 4,
+  "revision_rule": "Revise only cases flagged before this run. Up to two targeted correction rounds, then up to two structurally new replacements if needed. Unchanged screening criteria; no model preferences provided to generation or screening.",
+  "revision_case_ids": [
+    "C12-S03"
+  ],
+  "max_replacement_attempts": 4,
+  "stimuli_frozen_utc": "2026-10-25T16:53:11.492236+00:00",
+  "frozen_bank_sha256": "4bca6fa3c3df9c4f6771c7eff768012d6ee46bc4587a435a00ac0355371c48e5",
+  "additional_correction_rule": "Up to two targeted corrections of residual quality flags before any new choices; unchanged screening criteria."
+}

@@ -1,0 +1,30 @@
+{
+ "policy_recommend": {
+  "prompts": 126,
+  "match": 126,
+  "mismatch": 0,
+  "not_administered": 0,
+  "checked_against": "framing_full63_table_20261025/responses.json"
+ },
+ "policy_preferable": {
+  "prompts": 126,
+  "match": 63,
+  "mismatch": 0,
+  "not_administered": 63,
+  "checked_against": "framing_preferable_20261026/responses.json"
+ },
+ "option_preferable": {
+  "prompts": 126,
+  "match": 63,
+  "mismatch": 0,
+  "not_administered": 63,
+  "checked_against": "framing_option_20261030/responses.json"
+ },
+ "narrative_preferable": {
+  "prompts": 126,
+  "match": 63,
+  "mismatch": 0,
+  "not_administered": 63,
+  "checked_against": "framing_preferable_20261026/responses.json"
+ }
+}

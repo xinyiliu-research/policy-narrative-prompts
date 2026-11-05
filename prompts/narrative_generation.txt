@@ -1,0 +1,32 @@
+Task
+Produce TWO complete fictional narratives of a climate-related situation, Scenario A and Scenario B, from the supplied source case. The purpose is to evaluate the desirability of described situations without asking the respondent to advise, impersonate, or predict a stakeholder. This prompt creates the narrative counterpart of an existing case so that substantive content is matched across formats.
+
+Format
+Keep the source title. Each scenario must be a self-contained short story of 80-120 words, including its own setting, climate problem, relevant actors, actions and consequences. There is no separate shared opening. The longer story must be at most 1.30 times the shorter.
+Integrate action into a natural sequence, as in a short account of how people and institutions respond to a situation. Do not append a policy menu, end at a decision point, ask what an institution should do, or simply expand a list of policy specifications. Names, dialogue, dramatic events, and personal biographies are unnecessary.
+Institutions may remain actors where they are part of the case. Do not remove a government or replace it with volunteers merely to appear neutral. Do not narrate from one stakeholder's point of view or invent motives. Both stories describe alternative possible worlds; neither is presented as the observed real-world outcome. Use the same tense and preserve the source's uncertainty about future results.
+Shared requirements
+Use Schwartz's seven CULTURAL value orientations, not the ten individual basic values or universalism facets. The assigned orientations must be expressed through collective arrangements, observable actions and consequences, not slogans or value names.
+Keep climate change central. Both alternatives must credibly address the same explicit mitigation or adaptation goal, with comparable expected success over the same time horizon. State that comparability in the text. Climate cannot be only a funding source, label, or backdrop to a generic organizational dispute.
+Start with a plausible climate mechanism and a real constraint. Show a concrete gain and a meaningful sacrifice for each alternative. Neither should clearly dominate. Do not pit death or basic survival against convenience or enjoyment. Avoid arbitrary constraints invented only to prevent compromise. If an obvious feasible combination secures both key benefits without meaningful sacrifice, flag that limitation.
+Hold nonessential costs, affected populations, baseline risks, timing and outcome certainty comparable. Preserve differences that constitute the assigned value contrast; equal main-goal effectiveness does not mean every secondary outcome is equal. Hypothetical estimates are allowed for new cases, but avoid false precision and explain necessary terms.
+Both alternatives take the climate goal seriously. Do not equate one value with caring and the other with indifference. Technology versus natural processes is one possible contrast, not a template for every value pair.
+Use familiar English at approximately eighth-grade level, short direct sentences, and active voice. Do not use emotional anecdotes, heroes, villains, value labels, named countries, political parties, or factual claims about current laws. State institutional and access assumptions when necessary. Make A and B comparably detailed, vivid and certain.
+Keep status-quo framing comparable. If continuity itself is central to the value contrast, document a specific exception in researcher metadata. An active effort to preserve a practice can express Embeddedness; doing nothing does not establish it.
+Separate participant text from researcher metadata. Do not declare your output validated or select the preferred alternative. Flag difficult value distinctions rather than disguising them with fluent prose.
+
+Matched content
+Preserve all material source facts, actors, groups, climate mechanisms, restrictions, gains, sacrifices, quantities, costs, horizon, uncertainty and A/B assignment. Repeat the shared facts that readers need in BOTH stories. Integrate them naturally rather than referring to an unseen source. Do not add an advantage, remove a sacrifice, turn an expectation into a guarantee, or invent a new event to improve the narrative.
+You receive participant-facing source text only, without intended value labels. If a source limitation prevents a faithful narrative, preserve the substance and record that limitation. Do not silently redesign the case. This is a controlled rendering prompt, not independent topic generation.
+
+Output for the API
+Return one JSON object with exactly these keys:
+{"title":"","a":"","b":"","adaptation_notes":[]}
+Do not include the evaluation question in the generated text.
+
+Readability refinement
+Keep technical content concrete. Prefer "water used on crops" to "irrigation withdrawals", "who has the final say" to "final design authority", and "costs the same to maintain" to "similar maintenance costs". Split sentences that combine costs, uncertainty, staffing and outcomes. Do not simplify away the value distinction or a material condition.
+
+Story structure refinement
+Open with an actor doing something in the climate-affected setting, using activity supported by the source. Let actions unfold in a clear sequence. Avoid a long block of technical context followed by a policy paragraph. Use a consistent present-tense account of a hypothetical world where practical, keeping future results as expectations. Do not repeat "would" mechanically in every sentence.
+Each story must stand alone. Do not refer to "the other scenario", "the cooperative alternative", or another unseen plan by name. You may briefly explain that both available approaches have comparable costs or expected success, but do not turn the story into a recommendation question. Keep factual comparison separate from endorsement.

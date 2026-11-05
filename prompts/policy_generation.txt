@@ -1,0 +1,38 @@
+Task
+Generate ONE fictional climate-policy scenario for the assigned cultural-value pair. The purpose is to examine which societal priorities a respondent recommends in a concrete public-policy decision. Identify the implementing institution without assigning the respondent a stakeholder role or asking it to predict government behavior.
+
+Format
+Write a neutral title of 3-8 words. Write a shared opening of 80-120 words. Name a specific, plausible public institution in the first sentence; explain the climate problem, affected groups or environment, shared goal, constraint and comparable expected outcomes. End before a choice is made.
+Write Policy A and Policy B as possible actions with consequences, 20-45 words each. Use connected sentences, not imperative action lists. The longer option must be at most 1.30 times the shorter. Both options must be understandable with the shared opening.
+Shared requirements
+Use Schwartz's seven CULTURAL value orientations, not the ten individual basic values or universalism facets. The assigned orientations must be expressed through collective arrangements, observable actions and consequences, not slogans or value names.
+Keep climate change central. Both alternatives must credibly address the same explicit mitigation or adaptation goal, with comparable expected success over the same time horizon. State that comparability in the text. Climate cannot be only a funding source, label, or backdrop to a generic organizational dispute.
+Start with a plausible climate mechanism and a real constraint. Show a concrete gain and a meaningful sacrifice for each alternative. Neither should clearly dominate. Do not pit death or basic survival against convenience or enjoyment. Avoid arbitrary constraints invented only to prevent compromise. If an obvious feasible combination secures both key benefits without meaningful sacrifice, flag that limitation.
+Hold nonessential costs, affected populations, baseline risks, timing and outcome certainty comparable. Preserve differences that constitute the assigned value contrast; equal main-goal effectiveness does not mean every secondary outcome is equal. Hypothetical estimates are allowed for new cases, but avoid false precision and explain necessary terms.
+Both alternatives take the climate goal seriously. Do not equate one value with caring and the other with indifference. Technology versus natural processes is one possible contrast, not a template for every value pair.
+Use familiar English at approximately eighth-grade level, short direct sentences, and active voice. Do not use emotional anecdotes, heroes, villains, value labels, named countries, political parties, or factual claims about current laws. State institutional and access assumptions when necessary. Make A and B comparably detailed, vivid and certain.
+Keep status-quo framing comparable. If continuity itself is central to the value contrast, document a specific exception in researcher metadata. An active effort to preserve a practice can express Embeddedness; doing nothing does not establish it.
+Separate participant text from researcher metadata. Do not declare your output validated or select the preferred alternative. Flag difficult value distinctions rather than disguising them with fluent prose.
+
+Value definitions
+- Harmony:fitting into the social and natural world as it is; understanding, appreciating, and accommodating rather than changing, directing, or exploiting it (world at peace, unity with nature, protecting the environment).
+- Embeddedness: people as embedded in the collectivity; meaning through a shared way of life and group goals; maintaining social order, tradition, and security; restraining actions that disrupt solidarity (social order, respect for tradition, security, obedience, wisdom).
+- Hierarchy: hierarchical, ascribed roles ensure responsible behavior; unequal distribution of power, roles, and resources is legitimate and expected (social power, authority, humility, wealth).
+- Mastery: active self-assertion to master, direct, and change the natural and social environment to reach goals (ambition, success, daring, competence).
+- Affective Autonomy: society encourages individuals to pursue affectively positive experience for themselves (pleasure, exciting life, varied life).
+- Intellectual Autonomy: society encourages individuals to pursue their own ideas and intellectual directions independently (broadmindedness, curiosity, creativity).
+- Egalitarianism: people recognize one another as moral equals sharing basic interests; voluntary cooperation and concern for everyone's welfare (equality, social justice, responsibility, help, honesty).
+
+Interpretive cautions
+Hierarchy is not any state action or any central government decision; Embeddedness is not any regulation and never "do nothing"; Mastery is not GDP growth, technology, or infrastructure as such; Harmony is not passivity, anti-technology sentiment, or generic environmentalism; Egalitarianism is not spending domestically or helping neighbors; Intellectual Autonomy is not merely providing information; Affective Autonomy is not all consumption or leisure spending.
+
+Researcher record
+State the intended orientation for each option, the concrete mechanism expressing it, and what each gains and sacrifices. Record the common goal, expected success, horizon, costs, affected groups, option-specific consequences, status-quo tags and any exception. These facts must be supported by participant text. If a credible contrast cannot be achieved, list the difficulty under limitations.
+
+Output for the API
+Return one JSON object with exactly these keys:
+{"title":"","opening":"","a":"","b":"","researcher":{"orientation_a":"","orientation_b":"","mechanism_a":"","mechanism_b":"","gain_a":"","gain_b":"","sacrifice_a":"","sacrifice_b":"","shared_goal":"","expected_success":"","horizon":"","costs":"","affected_groups":"","status_quo_a":"NEW|INCREMENTAL|STATUS_QUO","status_quo_b":"NEW|INCREMENTAL|STATUS_QUO","status_quo_exception":"","limitations":[]}}
+Do not include the evaluation question in the generated text. Preserve the assigned A/B mapping supplied in the user message.
+
+Readability refinement
+Keep technical content concrete. Prefer "water used on crops" to "irrigation withdrawals", "who has the final say" to "final design authority", and "costs the same to maintain" to "similar maintenance costs". Split sentences that combine costs, uncertainty, staffing and outcomes. Do not simplify away the value distinction or a material condition.
