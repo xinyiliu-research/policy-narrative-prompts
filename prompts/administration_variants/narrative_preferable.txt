@@ -1,9 +1,0 @@
-{title}
-
-Scenario A: {a}
-
-Scenario B: {b}
-
-Which scenario is preferable, A or B?
-Choose one. In 30-60 words, explain the main reason for your choice based on the described actions and consequences.
-Return JSON only: {{"choice":"A or B","reason":"..."}}
